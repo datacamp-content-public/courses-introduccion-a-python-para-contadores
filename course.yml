@@ -1,4 +1,8 @@
-title: INTRODUCCIÓN A PYTHON PARA CONTADORES
-description: Course description goes here.
+title: VALUACIÓN DE ACTIVOS INTANGIBLES EN PYTHON
+description: >-
+  La valoración y la gestión del capital intelectual y de los elementos que lo
+  constituyen (los intangibles) son fundamentales dentro de un contexto de la
+  estrategia del modelo de negocio, considerando dimensiones jurídicas,
+  económicas, financieras, contables.
 programming_language: python
-from: python-base-prod:v1.0.2
+from: 'python-base-prod:v1.0.2'
