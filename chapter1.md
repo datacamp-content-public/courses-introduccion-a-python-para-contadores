@@ -1,6 +1,6 @@
 ---
-title: 'Chapter Title Here'
-description: 'Chapter description goes here.'
+title: 'Introducción a tablas'
+description: 'Se establece el primer contacto con la plataforma.'
 ---
 
 ## Crear un DataFrame en pandas
