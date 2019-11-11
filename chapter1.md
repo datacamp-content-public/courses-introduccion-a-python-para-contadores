@@ -3,7 +3,7 @@ title: 'Chapter Title Here'
 description: 'Chapter description goes here.'
 ---
 
-## Example coding exercise
+## Crear un DataFrame en pandas
 
 ```yaml
 type: NormalExercise
@@ -13,10 +13,12 @@ xp: 100
 skills: 2
 ```
 
-This is an example exercise.
+Los DataFrames son estructuras de datos de dos dimensiones (rectangulares o tabulares). Se componen de columnas y filas y pueden contener datos de diferentes tipos.
 
 `@instructions`
-
+- Importar la librería de pandas.
+- Crear una lista que contenga los números enteros: 0,1,2,3 y 4.
+- Convertir la lista en un DataFrame.
 
 `@hint`
 
@@ -28,12 +30,26 @@ This is an example exercise.
 
 `@sample_code`
 ```{python}
+#1. Importar la librería de pandas y DataFrame.
+import pandas as __
+from pandas import DataFrame
 
+#2. Crear una lista que contenga los números enteros: 0,1,2,3 y 4.
+d=[_,1,_,3,_]
+d
+#3. Convertir la lista en un DataFrame e imprimir la tabla.
+df=DataFrame(data=_)
+df
 ```
 
 `@solution`
 ```{python}
-
+import pandas as pd
+from pandas import DataFrame
+d=[0,1,2,3,4]
+d
+df=DataFrame(data=d)
+df
 ```
 
 `@sct`

@@ -1,1 +1,1 @@
-# courses-introduccion-a-python-para-contadores
+# Valuación de Activos Intangibles con Python
